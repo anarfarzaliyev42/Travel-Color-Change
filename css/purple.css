@@ -1,0 +1,22 @@
+button{
+    background: rgb(189, 31, 189);
+    border: 2px solid rgb(189, 31, 189);
+    border-radius: 15px;
+}
+
+.card:hover .title{
+    color:rgb(189, 31, 189);
+}
+.purple{
+    position: relative;
+}
+.purple::after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid rgb(189, 31, 189);
+}

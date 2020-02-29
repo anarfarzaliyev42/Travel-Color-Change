@@ -1,0 +1,22 @@
+button{
+    background: rgb(248, 252, 48);
+    border: 2px solid rgb(248, 252, 48);
+    border-radius: 15px;
+}
+
+.card:hover .title{
+    color:rgb(248, 252, 48);
+}
+.yellow{
+    position: relative;
+}
+.yellow::after{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 50%;
+    border: 1px solid rgb(248, 252, 48);
+}
