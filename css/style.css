@@ -32,12 +32,13 @@ body{
     position: fixed;
     left: 15px;
     top: 279px;
-    color: blueviolet;
+   
 
 }
 .color-selector i{
 font-size: 30px;
 cursor: pointer;
+color: rgb(219, 191, 90);
 }
 .colors{
     padding: 10px;
