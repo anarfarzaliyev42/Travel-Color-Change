@@ -1,14 +1,12 @@
-
-
 $(document).ready(function () {
     let obj={};
-    getColor()
+    getColor();
     $(document).on('click blur','.icon i',function () {
         $('.colors').toggle();
     })
     $(document).on('click','.colors .row div',function () {
         let currentColor=`${$(this).attr('class')}`;
-        console.log(currentColor);
+       
         
         $("link[value$='color']").attr('href','css/'+`${$(this).attr('class')}`+'.css');
         setColor();

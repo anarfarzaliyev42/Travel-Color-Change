@@ -18,12 +18,13 @@ body{
 }
 .title {
     padding: 25px;
+    transition: .5s;
 }
 .card{
     background-size: cover;
     color: white;
     margin: 10px;
-
+   
 }
 
 .color-selector{
