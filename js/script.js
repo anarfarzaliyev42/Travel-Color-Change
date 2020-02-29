@@ -3,7 +3,7 @@
 $(document).ready(function () {
     let obj={};
     getColor()
-    $(document).on('click','.icon i',function () {
+    $(document).on('click blur','.icon i',function () {
         $('.colors').toggle();
     })
     $(document).on('click','.colors .row div',function () {
@@ -19,9 +19,7 @@ $(document).ready(function () {
                 Color:`${currentColor}`
             }
            
-           
-            
-            
+                
             if (obj[1] == undefined) {
                 obj[1] = [];
             }
