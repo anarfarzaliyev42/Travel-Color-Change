@@ -20,5 +20,11 @@ button{
     padding: 42px;
 }
 .title {
-    padding: 42px;
+    padding: 25px;
+}
+.card{
+    background-size: cover;
+    color: white;
+    margin: 10px;
+
 }
