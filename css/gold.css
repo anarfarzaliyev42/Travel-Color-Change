@@ -1,11 +1,12 @@
 button{
-    background: rgb(240,230,140);
-    border: 2px solid rgb(240,230,140);
+    background: rgb(212, 210, 42);
+    border: 2px solid rgb(212, 210, 42);
     border-radius: 15px;
 }
 
 .card:hover .title{
-    color:rgb(240,230,140);
+    color:rgb(212, 210, 42);
+    
 }
 .gold{
     position: relative;
@@ -18,5 +19,5 @@ button{
     right: -5px;
     bottom: -5px;
     border-radius: 50%;
-    border: 1px solid rgb(240,230,140);
+    border: 1px solid rgb(212, 210, 42);
 }
