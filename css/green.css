@@ -1,23 +1,28 @@
-button{
-    background: rgb(14, 180, 14);
-    border: 2px solid rgb(14, 180, 14);
-    border-radius: 15px;
+button {
+  background: rgb(14, 180, 14);
+  border: 2px solid rgb(14, 180, 14);
+  border-radius: 15px;
 }
 
-.card:hover .title{
-    color:rgb(14, 180, 14);
-    
+.card:hover .title {
+  color: rgb(14, 180, 14);
 }
-.green{
-    position: relative;
+.green {
+  position: relative;
 }
-.green::after{
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    border-radius: 50%;
-    border: 1px solid rgb(14, 180, 14);
+.green::after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  border: 1px solid rgb(14, 180, 14);
+}
+.navbar {
+  background-color: rgb(14, 180, 14);
+}
+#navbarHeader {
+  background-color: rgb(14, 180, 14);
 }

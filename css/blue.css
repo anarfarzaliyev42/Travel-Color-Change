@@ -20,3 +20,9 @@ button{
     border-radius: 50%;
     border: 1px solid rgb(22, 162, 218) ;
 }
+.navbar {
+    background-color: rgb(22, 162, 218) ;
+  }
+  #navbarHeader {
+    background-color: rgb(22, 162, 218) ;
+  }

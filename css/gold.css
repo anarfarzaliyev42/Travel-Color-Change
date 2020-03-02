@@ -21,3 +21,9 @@ button{
     border-radius: 50%;
     border: 1px solid rgb(212, 210, 42);
 }
+.navbar {
+    background-color:rgb(212, 210, 42);
+  }
+  #navbarHeader {
+    background-color: rgb(212, 210, 42);
+  }
